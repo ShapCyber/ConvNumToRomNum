@@ -14,7 +14,7 @@ endif;
 <?php echo form_open('/converter'); ?>
   <div class="form-group">
     <label>Type Number To Convert To Roman's Number Here</label>
-    <input type="text" id="ConvNum" class="form-control" name="ConvNum" placeholder="e.g 10">
+    <input type="number" id="ConvNum" class="form-control" name="ConvNum" placeholder="e.g 10">
  </div>
   <button type="submit" class="btn btn-default">Convert</button>
 </form>
